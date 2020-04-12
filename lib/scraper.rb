@@ -12,7 +12,7 @@ class Scraper
   end 
   
   def get_courses
-    
+    Nokogiri::HTML(html).
   
   
   
