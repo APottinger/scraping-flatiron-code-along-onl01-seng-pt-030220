@@ -13,7 +13,7 @@ class Scraper
   end 
   
   def get_courses
-    doc.css()
+    doc.css(//*[@id="course-grid"])
   
   
   
