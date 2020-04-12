@@ -18,9 +18,7 @@ class Scraper
     doc.css(".posts-holder")
   end 
   
-  def make_courses
-    self = Course.new(title, schedule, description)
-  end 
+ 
 end 
 
 Scraper.new.get_page
