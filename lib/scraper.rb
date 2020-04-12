@@ -5,7 +5,7 @@ require_relative './course.rb'
 
 class Scraper
   
-  html = open()
+  html = open(http://learn-co-curriculum.github.io/site-for-scraping/courses.)
   
   def get_page
     Nokogiri::HTML(html)
